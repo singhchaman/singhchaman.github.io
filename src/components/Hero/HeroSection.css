@@ -19,7 +19,7 @@ video {
 }
 
 .hero-container > h1 {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 50px;
   margin-top: -50vh;
   text-align: center;
@@ -29,7 +29,7 @@ video {
   margin-left: 10vh;
   margin-right: 10vh;
   margin-top: 20px;
-  color: rgb(35, 15, 15);
+  color: rgb(255, 255, 255);
   font-size: 30px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;

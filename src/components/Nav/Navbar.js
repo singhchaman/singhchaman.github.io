@@ -53,7 +53,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={toggleHome}>
-            PARIJAT CHATTERJEE
+            CHAMAN SINGH
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -77,13 +77,13 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <ScrollLink
-                to='articles'
+                to='publications'
                 smooth={true} 
                 duration={1000}
                 className='nav-links'
                 onClick={toggleArticles}
               >
-                ARTICLES
+                PUBLICATIONS
               </ScrollLink>
             </li>
 

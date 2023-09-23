@@ -11,17 +11,16 @@ function HeroSection() {
   
   return (
     <div className='hero-container'>
-      <video src='/videos/video.mp4' type="video/mp4" autoPlay loop muted playsinline/>
-      <h1>CODING THROUGH THE NIGHT TO BRING IDEAS TO LIGHT.</h1>
-      <p>With some inspiration, my programming skills, and a hefty amount of coffee, I aim to build projects that are mostly useful but sometimes not.</p>
+      <video src='/videos/video.mp4' type="video/mp4" autoPlay loop muted playsInline/>
+      <h1>Machine Learning Enthusiast with a Sporting Soul</h1>
+      <p>Trying to decipher the cryptic languages of data. Let's decode AI, discuss sports, or strum some tunes together.</p>
       <div className='hero-btns'>
         <Button
           className='btns'
           buttonStyle='btn--primary'
-          buttonSize='btn--large'
-          
+          buttonSize='btn--large' 
         >
-          Sound interesting? Let's be friends!
+          Sounds Interesting? Let's Connect!
         </Button>
         
       </div>

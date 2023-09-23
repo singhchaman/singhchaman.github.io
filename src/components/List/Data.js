@@ -1,38 +1,43 @@
 export const ProjObjOne = {
-    title: 'ML Implimentations',
-    link: 'https://github.com/killerpanda101/implementations-of-ml-algorithms'
+    title: 'Self Supervised Learning',
+    link: 'https://github.com/singhchaman/'
   };
   
   
   export const ProjObjTwo = {
-    title: 'Sanskriti Website',
-    link: 'https://github.com/killerpanda101/sanskriti'
+    title: 'Brain Tumor Segmentation',
+    link: 'https://github.com/singhchaman/brain_tumor_segmentation'
   };
   
   export const ProjObjThree = {
-    title: 'Computer Vision',
-    link: 'https://github.com/killerpanda101/Opencv'
+    title: 'Multilingual News Article Similarity',
+    link: 'https://github.com/singhchaman/multilingual_news_article_similarity'
   };
   
   export const ProjObjFour = {
-    title: 'Diabetic Retinopathy',
-    link: 'https://github.com/killerpanda101/Diabetic-retinopathy/tree/main/diabetic-retinopathy-dataset'
+    title: 'Playing Soccer using Reinforcement Learning',
+    link: 'https://github.com/singhchaman/unity_reinforcement_learning_soccer'
+  };
+
+  export const ProjObjFive = {
+    title: 'Speech based Keyword Spotting System',
+    link: 'https://drive.google.com/drive/folders/0B6POveM76ctfSS16WmtoYzA1dk0?resourcekey=0-2CBCajTwknKSLmLWS58PQg&usp=sharing'
   };
 
   export const ArticObjOne = {
-    title: 'Graph Transformer',
-    link: 'https://medium.com/towards-data-science/graph-transformer-generalization-of-transformers-to-graphs-ead2448cff8b'
+    title: 'Detecting Developmental Dysphasia in Speech',
+    link: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=F6QHYXAAAAAJ&citation_for_view=F6QHYXAAAAAJ:qjMakFHDy7sC'
   };
   
   
   export const ArticObjTwo = {
-    title: 'Learning to Rank',
-    link: 'https://medium.com/@andresespinosapc/learning-to-rank-bpr-5fe5561d48e0'
+    title: 'Variable Frame Length in Speech Recognition',
+    link: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=F6QHYXAAAAAJ&citation_for_view=F6QHYXAAAAAJ:u5HHmVD_uO8C'
   };
   
   export const ArticObjThree = {
-    title: 'Recommender Systems',
-    link: 'https://medium.com/towards-data-science/recommender-systems-using-deep-learning-in-pytorch-from-scratch-f661b8f391d7'
+    title: 'Speaking Rate Adaptation in Speech Recognition',
+    link: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=F6QHYXAAAAAJ&citation_for_view=F6QHYXAAAAAJ:9yKSN-GCB0IC'
   };
   
   export const ArticObjFour = {
@@ -42,23 +47,23 @@ export const ProjObjOne = {
 
   export const SocialObjOne = {
     title: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/parijat-chatterjee/'
+    link: 'https://www.linkedin.com/in/singhchaman/'
   };
   
   
   export const SocialObjTwo = {
     title: 'GitHub',
-    link: 'https://github.com/killerpanda101'
+    link: 'https://github.com/singhchaman'
   };
   
   export const SocialObjThree = {
-    title: 'Medium',
-    link: 'https://medium.com/@parijat.chatterjee13'
+    title: 'Twitter',
+    link: 'https://twitter.com/chiraginator'
   };
   
   export const SocialObjFour = {
     title: 'Instagram',
-    link: 'https://www.instagram.com/therealparijat/'
+    link: 'https://www.instagram.com/chiraginator/'
   };
   
   

@@ -18,7 +18,7 @@ function Home() {
       <HeroSection />
       <Card id="about" {...homeOjbOne} />
       <Card id="projects" {...homeOjbTwo} />
-      <Card id="articles" {...homeOjbThree} />
+      <Card id="publications" {...homeOjbThree} />
       <Card id="social" {...homeOjbFour} />
     </>
   );

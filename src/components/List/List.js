@@ -8,6 +8,7 @@ import {
   ProjObjTwo,
   ProjObjThree,
   ProjObjFour,
+  ProjObjFive,
   SocialObjOne,
   SocialObjTwo,
   SocialObjThree,
@@ -15,42 +16,33 @@ import {
   ArticObjOne,
   ArticObjTwo,
   ArticObjThree,
-  ArticObjFour
-} from "./Data";
+  // ArticObjFour
+} from './Data';
 
-export const List = ({type}) => {
-  let DataObjOne;
-  let DataObjTwo;
-  let DataObjThree;
-  let DataObjFour;
-  
-  if(type === 'proj'){
-      DataObjOne = ProjObjOne;
-      DataObjTwo = ProjObjTwo;
-      DataObjThree = ProjObjThree;
-      DataObjFour = ProjObjFour;
-  }
-  else if(type === 'article'){
-      DataObjOne = ArticObjOne;
-      DataObjTwo = ArticObjTwo;
-      DataObjThree = ArticObjThree;
-      DataObjFour = ArticObjFour;
-  }
-  else{
-      DataObjOne = SocialObjOne;
-      DataObjTwo = SocialObjTwo;
-      DataObjThree = SocialObjThree;
-      DataObjFour = SocialObjFour;
-  }
-  const primary = true
-  
+export const List = ({ type }) => {
+  const dataObjs = {
+    proj: [ProjObjOne, ProjObjTwo, ProjObjThree, ProjObjFour, ProjObjFive],
+    social: [SocialObjOne, SocialObjTwo, SocialObjThree, SocialObjFour],
+    article: [ArticObjOne, ArticObjTwo, ArticObjThree],
+  };
+
+  const renderButtons = () => {
+    const buttons = [];
+    for (const dataObj of dataObjs[type]) {
+      buttons.push(
+        <Link key={dataObj.link} to={{ pathname: dataObj.link }} target="_blank">
+          <Button big fontBig primary={true} >
+            {dataObj.title}
+          </Button>
+        </Link>
+      );
+    }
+    return buttons;
+  };
 
   return (
-    <div class='btn-group'>
-     <Link to={{pathname: DataObjOne.link}} target="_blank"><Button big fontBig primary={primary}>{DataObjOne.title}</Button></Link>
-     <Link to={{pathname: DataObjTwo.link}} target="_blank"><Button big fontBig primary={primary}>{DataObjTwo.title}</Button></Link>
-     <Link to={{pathname: DataObjThree.link}} target="_blank"><Button big fontBig primary={primary}>{DataObjThree.title}</Button></Link>
-     <Link to={{pathname: DataObjFour.link}} target="_blank"><Button big fontBig primary={primary}>{DataObjFour.title}</Button></Link>
+    <div  className={`btn-group`}>
+      {renderButtons()}
     </div>
   );
 };
